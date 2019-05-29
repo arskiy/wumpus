@@ -204,7 +204,7 @@ class Wumpus : public Thing {
 
 				const char *msg = "You lost! Press any key to leave.";
 
-				mvprintw(LINES / 8, (COLS / 2) - strlen(msg) + 5, msg);
+				mvprintw(10, 0, msg);
 
 				attroff(COLOR_PAIR(1));
 				return true;

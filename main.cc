@@ -61,7 +61,7 @@ int main() {
 			init_pair(1, COLOR_GREEN, COLOR_BLACK);
 
 			attron(COLOR_PAIR(1));
-			mvprintw(12, 0, "You won! Congratulations.");
+			mvprintw(10, 0, "You won! Congratulations.");
 			attroff(COLOR_PAIR(1));
 			break;
 		}
